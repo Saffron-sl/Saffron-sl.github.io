@@ -3,7 +3,7 @@ import Home from '../views/Home.vue'
 import DoctorConnect from '../views/DoctorConnect.vue'
 import Marketplace from '../views/Marketplace.vue'
 import Community from '../views/Community.vue'
-import Insurance from '../views/Insurance.vue'
+import Services from '../views/Services.vue'
 import LearnMore from '../views/LearnMore.vue';
 
 const router = createRouter({
@@ -29,10 +29,10 @@ const router = createRouter({
       name: 'community',
       component: Community
     },
-    {
-      path: '/insurance',
-      name: 'insurance',
-      component: Insurance
+    { 
+      path: '/services', 
+      name: 'Services', 
+      component: Services 
     },
     { path: '/learn-more', 
       name: 'LearnMore', 

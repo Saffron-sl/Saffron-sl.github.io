@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Doctor Connect', href: '/doctor-connect' },
   { name: 'Marketplace', href: '/marketplace' },
   { name: 'Community', href: '/community' },
-  { name: 'Insurance', href: '/insurance' },
+  { name: 'Services', href: '/services' },
 ]
 
 const mobileMenuOpen = ref(false)
